@@ -28,7 +28,7 @@ yad --plug="$id" --tabnum=1 --columns=2 --form \
 
 
 yad --plug="$id" --tabnum=2 --columns=2 --form \
---field="<b>Install Steam</b>":fbtn "xfce4-terminal -e 'sudo pacman -S --noconfirm steam-manjaro gamemode'" \
+--field="<b>Install Steam</b>":fbtn "xfce4-terminal -e 'sudo pacman -S --noconfirm steam-manjaro steam-native gamemode'" \
 --field="<b>Install Heroic Launcher</b>":fbtn "xfce4-terminal -e 'yay -S --noconfirm heroic-games-launcher-bin gamemode'" \
 --field="<b>Install Lutris Launcher</b>":fbtn "xfce4-terminal -e 'sudo pacman -S --noconfirm lutris gamemode'" \
 --field="<b>Install ProtonGE Updater</b>":fbtn "xfce4-terminal -e 'yay -S --noconfirm proton-community-updater'" \
